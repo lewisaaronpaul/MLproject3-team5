@@ -1,5 +1,5 @@
 from flask import Flask,render_template,url_for,request,jsonify
-from catboost import CatBoostClassifier
+#from catboost import CatBoostClassifier
 
 app = Flask(__name__)
 import numpy as np
