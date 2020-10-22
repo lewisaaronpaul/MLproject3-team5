@@ -55,6 +55,7 @@ def predict():
 		prediction_label = {"Die":0, "Live":1}
 		final_result = get_key(prediction[0], prediction_label)
 		pred_prob = model.predict_proba(np.array(numerical_encoded_data).reshape(1,-1))
+		print("Prediction:")
 		print(f"pred_prob: {pred_prob}")
 		print(f"pred_prob[0]: {pred_prob[0]}")
 		pred_probalility_score = {"Die":f"{round(pred_prob[0][0]*100)}%","Live":f"{round(pred_prob[0][1]*100)}%"}
