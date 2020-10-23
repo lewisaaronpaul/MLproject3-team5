@@ -69,6 +69,9 @@ matplotlib==3.2.1
 mccabe==0.6.1
 missingno==0.4.2
 mistune==0.8.4
+mkl-fft==1.0.15
+mkl-random==1.1.0
+mkl-service==2.3.0
 mrjob==0.7.4
 multidict==4.7.6
 nb-conda-kernels==2.2.3
