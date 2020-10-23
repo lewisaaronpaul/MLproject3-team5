@@ -41,8 +41,8 @@ idna
 imageio==2.9.0
 importlib-metadata
 ipykernel==5.3.4
-ipython==7.18.1
-ipython-genutils==0.2.0
+ipython
+ipython-genutils
 ipywidgets==7.5.1
 itsdangerous==1.1.0
 jedi==0.17.2
@@ -97,7 +97,7 @@ pyparsing==2.4.7
 pyreadline==2.1
 pyrsistent==0.17.3
 PySocks
-python-dateutil==2.8.1
+python-dateutil
 pytz==2020.1
 PyWavelets==1.1.1
 pywin32==228
